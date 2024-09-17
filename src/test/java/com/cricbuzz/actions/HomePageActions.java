@@ -14,4 +14,8 @@ public class HomePageActions extends HomePage {
 		Schedule.click();
 	}
 	
+	public void clickArchives() {
+		Archives.click();
+	}
+	
 }

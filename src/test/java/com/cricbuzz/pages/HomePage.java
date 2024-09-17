@@ -18,7 +18,10 @@ public class HomePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath = HomePageIdentifers.Schedule)
+	@FindBy(xpath = HomePageIdentifers.ScheduleXpath)
 	public WebElement Schedule;
+	
+	@FindBy(xpath = HomePageIdentifers.ArchivesXpath)
+	public WebElement Archives;
 	
 }

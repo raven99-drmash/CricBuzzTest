@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 
 import com.cricbuzz.pageobjectmanager.PageObjectManager;
 
-public class TC001_EnterRankings {
+public class TC001_EnterSchedule {
 	public WebDriver driver;
 	PageObjectManager pages;
 	Logger logger;
@@ -45,7 +45,7 @@ public class TC001_EnterRankings {
 	@Test
 	public void test1() {
 		pages.getHomePage(driver).clickSchedule();
-		logger.info("Hey there... end of test case");
+		logger.info("Hey there... end of test case 1");
 		
 	}
 
