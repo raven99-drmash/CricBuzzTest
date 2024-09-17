@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-17T19:03:25 IST" name="Suite" finished-at="2024-09-17T19:03:31 IST" duration-ms="6418">
+  <suite started-at="2024-09-17T23:15:05 IST" name="Suite" finished-at="2024-09-17T23:15:17 IST" duration-ms="12154">
     <groups>
     </groups>
-    <test started-at="2024-09-17T19:03:25 IST" name="Test" finished-at="2024-09-17T19:03:31 IST" duration-ms="6418">
-      <class name="com.cricbuzz.tests.TC001_EnterRankings">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.cricbuzz.tests.TC001_EnterRankings@222545dc]" started-at="2024-09-17T19:03:25 IST" name="setup" finished-at="2024-09-17T19:03:31 IST" duration-ms="5664" status="PASS">
+    <test started-at="2024-09-17T23:15:05 IST" name="Test" finished-at="2024-09-17T23:15:17 IST" duration-ms="12154">
+      <class name="com.cricbuzz.tests.TC001_EnterSchedule">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cricbuzz.tests.TC001_EnterSchedule@71809907]" started-at="2024-09-17T23:15:05 IST" name="setup" finished-at="2024-09-17T23:15:10 IST" duration-ms="5177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test1()[pri:0, instance:com.cricbuzz.tests.TC001_EnterRankings@222545dc]" started-at="2024-09-17T19:03:31 IST" name="test1" finished-at="2024-09-17T19:03:31 IST" duration-ms="644" status="PASS">
+        <test-method signature="testMeth()[pri:0, instance:com.cricbuzz.tests.TC001_EnterSchedule@71809907]" started-at="2024-09-17T23:15:10 IST" name="testMeth" finished-at="2024-09-17T23:15:11 IST" duration-ms="1302" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cricbuzz.tests.TC001_EnterRankings@222545dc]" started-at="2024-09-17T19:03:31 IST" name="tearDown" finished-at="2024-09-17T19:03:31 IST" duration-ms="85" status="PASS">
+        </test-method> <!-- testMeth -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cricbuzz.tests.TC001_EnterSchedule@71809907]" started-at="2024-09-17T23:15:11 IST" name="tearDown" finished-at="2024-09-17T23:15:12 IST" duration-ms="367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.cricbuzz.tests.TC001_EnterRankings -->
+      </class> <!-- com.cricbuzz.tests.TC001_EnterSchedule -->
+      <class name="com.cricbuzz.tests.TC002_EnterArchives">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cricbuzz.tests.TC002_EnterArchives@7c729a55]" started-at="2024-09-17T23:15:12 IST" name="setup" finished-at="2024-09-17T23:15:16 IST" duration-ms="4652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testMeth()[pri:0, instance:com.cricbuzz.tests.TC002_EnterArchives@7c729a55]" started-at="2024-09-17T23:15:16 IST" name="testMeth" finished-at="2024-09-17T23:15:17 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeth -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cricbuzz.tests.TC002_EnterArchives@7c729a55]" started-at="2024-09-17T23:15:17 IST" name="tearDown" finished-at="2024-09-17T23:15:17 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cricbuzz.tests.TC002_EnterArchives -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
