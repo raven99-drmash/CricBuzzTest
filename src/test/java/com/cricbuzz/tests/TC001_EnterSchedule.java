@@ -44,6 +44,7 @@ public class TC001_EnterSchedule {
 		p = new Properties();
 		p.load(propFile);
 		driver.get(p.getProperty("cricbuzzURL"));
+	
 	}
 
 	@AfterClass
